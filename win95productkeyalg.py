@@ -1,6 +1,5 @@
 import os
-import time
-import  tkinter
+import tkinter
 from tkinter import messagebox
 
 print('Product Key Format: xxx-xxxxxxx')
@@ -32,7 +31,6 @@ if prodkeyfirst != 333 and prodkeyfirst != 444 and prodkeyfirst != 555 and prodk
                 print('product key valid')
                 tkinter.messagebox.showinfo("Windows 95 Product Key Algorithm", "The Key you introduced is valid and would work on a Windows 95 Setup.")
                 exit()
-                time.sleep(5)
             else:
                 print('X')
                 tkinter.messagebox.showerror("Windows 95 Product Key Algorithm", "The Key you introduced is invalid. Please try again.")
